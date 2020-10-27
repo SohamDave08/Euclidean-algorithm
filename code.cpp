@@ -12,7 +12,7 @@ int GCD(int a, int b)
 int main()
 {
     int a,b;
-    cout<<"Enter 2 numbers you want to find GCD for:\n";
+    cout<<endl<<endl<<"Enter 2 numbers you want to find GCD for:\n";
     cin>>a>>b;
     int result = GCD(a,b);
     cout<<"\nGCD("<<a<<","<<b<<") = "<<result<<endl;
